@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magma Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <div id="main">
+        
+        <div data-scroll data-scroll-speed="-5" id="page1">
+            <nav>
+                <img src="logo.png" alt="">
+                <div id="right-nav">
+                    <div id="page1NavButton">
+                        <div class="transitionTextDown">Book a Demo</div>
+                        <div class="transitionTextUp">Book a Demo</div>
+                        <div id="transitionNav"></div>
+                    </div>
+                    <!-- <button>Book a Demo</button> -->
+                    <button><i class="ri-menu-fill ri-lg"></i></button>
+                </div>
+            </nav>
+            <div id="bottom-page1">
+                <h1>Experience Real</h1>
+                <h1>Estate Agility</h1>
+                <div id="bottom-wrapper">
+                    <div id="bottompWrapper">
+                        <!-- <p>Create a Digital Twin Token (DTT®) of your existing building and release the potential of Web3.</p> -->
+                        <div>
+                            <p>Create a Digital Twin Token (DTT®) of your </p>
+                            <p> existing building and release the potential</p>
+                            <p> of Web3.</p>
+                        </div>
+                    </div>
+                    <div id="page1ButtonWrapper">
+                        <div id="page1Button">
+                            <div class="transitionTextDown">Learn more</div>
+                            <div class="transitionTextUp">Learn more</div>
+                            <div id="transition"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <video src="https://thisismagma.com/wp-content/themes/magma/assets/home/hero/1.mp4?2" autoplay loop
+                muted></video>
+        </div>
+        <div id="page2" class="blue-info-page">
+            <h3 class="h3-heading">CERTIFY YOUR BUILDING AS A DIGITAL TWIN TOKEN (DTT®)</h2>
+                <h2 class="h2-heading">The Digital Twin Token is a unique digital asset backed by property data. Magma
+                    combines your building’s components and systems essential information into a DTT®.</h1>
+        </div>
+        <div id="page3">
+            <canvas></canvas>
+        </div>
+        <div id="page4" class="blue-info-page">
+            <h3 class="h3-heading">CONNECT THE BUILDING'S TWIN TO YOUR STAKEHOLDERS</h3>
+            <h2 class="h2-heading">Users connect directly to the DTT® without any intermediaries. As Stakeholder, they
+                have the power to upload and verify information that enriches the Digital Twin Token. A Stakeholder's
+                ability to access validated-data to perform tasks depends on their specific role.</h2>
+        </div>
+        <div id="page5">
+            <canvas></canvas>
+        </div>
+        <div data-scroll data-scroll-speed="-5.5" id="page6" class="blue-info-page">
+            <h3 class="h3-heading">INCREASE YOUR DIGITAL TWIN TOKEN’S VALUE</h3>
+            <h2 class="h2-heading">DTT® data increases the value of your digital asset by lowering operational costs,
+                improving energy use, assisting commercialization, and boosting the liquidity of your building.</h2>
+        </div>
+        <div id="page7">
+            <canvas></canvas>
+            <div id="page7Wrapper">
+                <div id="loadingCircle">
+                    <div id="loadingCircleInner"></div>
+                </div>
+                <div id="page7PercentWrapper">
+                    <h1 id="percentH1">0%</h1>
+                    <h2>MAGMA INDEX</h2>
+                </div>
+                <img id="page7Img" src="https://thisismagma.com/wp-content/themes/magma/assets/home/lore/1.png" alt="">
+            </div>
+        </div>
+        <div id="page8">
+            <div id="page8Bottom">
+                <h1>Megma DTT®</h1>
+                <button>Learn More</button>
+                <!-- TODO: button animaation -->
+            </div>
+            <video src="https://thisismagma.com/wp-content/themes/magma/assets/home/glass/1.mp4?3" autoplay loop
+                muted></video>
+        </div>
+        <div id="page9">
+            <div id="page9Left">
+                <h1>What is Magma?</h1>
+            </div>
+            <div id="page9Right">
+                <img src="https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-1.jpeg"
+                    alt="photo">
+            </div>
+        </div>
+        <div id="page10">
+            <div id="page10Right">
+                <div class="page10RightInner">
+                    <h2 class="page10h2">Web3 platform</h2>
+                    <p class="page10p">Magma is a Web3 platform for all real estate stakeholders, which provides users
+                        with the ability to manage interactions between physical and digital assets through unique, and
+                        collectively generated, 3D representations of their buildings.</p>
+                </div>
+                <div class="page10RightInner">
+                    <h2 class="page10h2">The Digital Twin Token: The building’s unique digital copy</h2>
+                    <p class="page10p">Magma uses blockchain technology to record essential data, which enables
+                        transparent, traceable, and immutable streams of information to be readily accessible to its
+                        users. Magma smart contracts are built with this blockchain data to expedite tasks like requests
+                        for proposals, lease agreements, and services arrangements.</p>
+                </div>
+                <div class="page10RightInner">
+                    <h2 class="page10h2">An Index of digitization</h2>
+                    <p class="page10p">The Magma Index provides valuable insight for decision-making regarding
+                        data-sharing, service-creating, and operational/environmental expectations.</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="Script.js"></script>
+</body>
+
+</html>
